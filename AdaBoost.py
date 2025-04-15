@@ -38,6 +38,6 @@ accuracy = accuracy_score(y_test, y_pred)
 print('Accuracy: %.3f' % accuracy)
 
 # Make a single prediction (example row, replace with actual data if needed)
-row = [[...]]  # Replace with appropriate feature values
+row = [[10]]  # Replace with appropriate feature values
 yhat = model.predict(row)
 print('Predicted Class: %d' % yhat[0])
